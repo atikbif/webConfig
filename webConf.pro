@@ -4,9 +4,16 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui xml
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+RC_ICONS = earth.ico
+VERSION = 1.0.0.1
+QMAKE_TARGET_COMPANY = Kontel Co
+QMAKE_TARGET_PRODUCT = Dispatcher Config
+QMAKE_TARGET_DESCRIPTION = Web Server Configuration Utility
+QMAKE_TARGET_COPYRIGHT = Kontel
 
 TARGET = webConf
 TEMPLATE = app
